@@ -5,8 +5,65 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Apple Packet Price Planner</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+    <div class="buyingData">
+        <h1>Apple Packet Price Planner</h1>
+        <div>
+            <h2>Apple buying data</h2>
+            <table>
+                <tr>
+                <td><h3>Cost price for a box of apples</h3></td>
+                <td><input type="number" class="buying-data"></td>
+            </tr>
+            <tr>
+                <td><h3>Number of apples in the box</h3></td>
+                <td><input type="number" class="buying-data"></td>
+            </tr>
+            <tr>
+                <td><h3>The packet size apples are sold in</h3></td>
+                <td><input type="number" class="buying-data"></td>
+            </tr>
+            <tr>
+                <td><h3>Required profit %</h3></td>
+                <td><input type="number" class="buying-data"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><button class = "calculate" type = "button" name = "button" >Calculate</button></td>
+            </tr>
+            </table>
+            
+            
+            
+            
+
+        </div>
+
+        <div class="priceCalculations">
+            <h2>Apple price calculations</h2>
+            <table>
+                <tr>
+                    <td><h3>Number of packets</h3></td>
+                    <td><span class="Num-pkts">0.00</span></td>
+                </tr>
+                <tr>
+                    <td><h3>Cost price per apple</h3></td>
+                    <td><span class="pp-apple">0.00</span></td>
+                </tr>
+                <tr>
+                    <td><h3>Cost price per packet</h3></td>
+                    <td><span class="pp-pkt">0.00</span></td>
+                </tr>
+                <tr>
+                    <td><h3>Recommended packet price</h3></td>
+                    <td><span class="recommend-pkts">0.00</span></td>
+                </tr>
+            </table>
+            
+        </div>
+    </div>
+
 </body>
 </html>
