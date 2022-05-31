@@ -6,6 +6,7 @@ const recommendedPackets = document.querySelector(".recommended-packets");
 
 calculateBtn.addEventListener("click", function(){
     alert(calculateBtn);
+
     // numOfPackets.innerHTML = 
     // costPerApple.innerHTML =
     // costPerPacket.innerHTML = 
