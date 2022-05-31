@@ -5,10 +5,20 @@ body {
 }
 
 table {
-    width: 80%;
+    width: 55%;
 
 }
 
-td, tr {
-    padding: auto;
+td {
+    width: 25%;
+    
+}
+
+.results {
+    border: 1px solid black;
+    padding-left: 15%;
+    padding-right: 15%;
+    width: 25%;
+    margin:auto;
+    background-color: grey;
 }

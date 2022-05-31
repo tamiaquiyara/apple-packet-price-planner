@@ -4,7 +4,7 @@ describe('The apple packet price planner app', function() {
 
 		const applePacketPr = ApplePacketPr();
 
-		assert.equal(10, applePacketPr(5));
+		assert.equal(10, applePacketPr.boxPrice(10));
 
 	});
 
@@ -12,7 +12,7 @@ describe('The apple packet price planner app', function() {
 
 		const applePacketPr = ApplePacketPr();
 
-		assert.equal(5, applePacketPr(5));
+		assert.equal(5, applePacketPr.appleAmount(5));
 
 	});
 
@@ -20,7 +20,7 @@ describe('The apple packet price planner app', function() {
 
 		const applePacketPr = ApplePacketPr();
 
-		assert.equal(5, applePacketPr(5));
+		assert.equal(5, applePacketPr.profit(5));
 
 	});
 
@@ -28,7 +28,7 @@ describe('The apple packet price planner app', function() {
 
 		const applePacketPr = ApplePacketPr();
 
-		assert.equal(5, applePacketPr(5));
+		assert.equal(5, applePacketPr.packetSize(5));
 
 	});
 });
